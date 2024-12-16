@@ -5,7 +5,7 @@ import pyperclip
 
 
 
-# ---------------------------- PASSWORD GENERATOR ------------------------------- #
+#  PASSWORD GENERATOR 
 def generate_password():
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'n', 'm', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
@@ -23,7 +23,7 @@ def generate_password():
     pyperclip.copy(password)
 
 
-# ---------------------------- SAVE PASSWORD ------------------------------- #
+# SAVE PASSWORD 
 
 def save():
 
@@ -44,7 +44,7 @@ def save():
             done = messagebox.showinfo(title="password manager", message="password saved successfully")
             print(done)
 
-# ---------------------------- UI SETUP ------------------------------- #
+#  UI 
 
 window = Tk()
 window.title("Password Manager")
