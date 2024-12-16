@@ -66,8 +66,10 @@ password-manager/
 
 ## Example
 
-![App Screenshot](screenshot.png)  
-Example of the Password Manager interface (replace this text with an actual screenshot).
+![App Screenshot](![Screenshot 2024-12-16 153728](https://github.com/user-attachments/assets/8da47588-a4b7-4ae1-973c-b58dd539b479)
+)  
+
+
 
 ---
 
