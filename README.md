@@ -49,7 +49,8 @@ A simple and secure **Password Manager** built with Python and Tkinter. This app
 2. Fill in the `Website` and `Email/Username` fields.
 3. Click **Generate Password** to create a secure password.
 4. Click **Add** to save the website, username, and password to `data.txt`.
-
+5. Add encryption for the `data.json` file for improved security.
+6. Search functionality to retrieve saved passwords.
 ---
 
 ## File Structure
@@ -66,17 +67,15 @@ password-manager/
 
 ## Example
 
-![App Screenshot](![Screenshot 2024-12-16 153728](https://github.com/user-attachments/assets/8da47588-a4b7-4ae1-973c-b58dd539b479)
-)  
+![Screenshot 2024-12-18 123500](https://github.com/user-attachments/assets/7a25a52f-55ab-4296-b096-899627641521)
 
+![Screenshot 2024-12-18 123508](https://github.com/user-attachments/assets/2d7232aa-89b2-4eef-a9ff-a37fd8c3b4dc)
 
 
 ---
 
 ## Future Enhancements
 
-- Add encryption for the `data.txt` file for improved security.
-- Implement a search functionality to retrieve saved passwords.
 - Provide multi-platform support.
 
 ---
