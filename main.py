@@ -82,7 +82,7 @@ def find_password():
             messagebox.showinfo(title="Oops!", message="No result matching to your input")
 
 
-# ---------------------------- UI SETUP ------------------------------- #
+# ---------------------------- UI SETUP ------------------------------- # UI funtion for password manager
 
 window = Tk()
 window.title("Password Manager")
