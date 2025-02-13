@@ -62,7 +62,7 @@ def save():
 
         messagebox.showinfo(title="Password Manager", message="password saved successfully")
 
-# ---------------------------- FIND PASSWORD ------------------------------- #
+# ---------------------------- FIND PASSWORD ------------------------------- # fucntion to search existing passwords in manager
 
 def find_password():
     web = web_entry.get()
