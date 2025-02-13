@@ -60,7 +60,7 @@ def save():
             web_entry.delete(0, END)
             pass_entry.delete(0,  END)
 
-        messagebox.showinfo(title="password manager", message="password saved successfully")
+        messagebox.showinfo(title="Password Manager", message="password saved successfully")
 
 # ---------------------------- FIND PASSWORD ------------------------------- #
 
