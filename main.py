@@ -112,7 +112,7 @@ web_entry.focus() # focus is to have the cursor on the entry by default
 
 email_username_entry = Entry(width=35)
 email_username_entry.grid(row=2, column=1, padx=10, pady=5)
-email_username_entry.insert(0, 'josephaltrin825@gmail.com')
+email_username_entry.insert(0, 'example@gmail.com')
 
 pass_entry = Entry(width=21)
 pass_entry.grid(row=3, column=1, padx=10, pady=5)
