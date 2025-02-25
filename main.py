@@ -127,4 +127,5 @@ add_button.grid(row=4, column=1, pady=10)
 search_button = Button(text="Search", width=14, command=find_password, bg="DarkBlue", fg="White")
 search_button.grid(row=1, column=2)
 
+# funcion to execute the tkinter
 window.mainloop()
