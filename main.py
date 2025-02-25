@@ -86,7 +86,7 @@ def find_password():
 
 window = Tk()
 window.title("Password Manager")
-window.config(padx=50, pady=50)
+window.config(padx=50, pady=50) # configuring
 
 canvas = Canvas(width=200, height=200)
 logo = PhotoImage(file='logo.png')
@@ -129,3 +129,5 @@ search_button.grid(row=1, column=2)
 
 # funcion to execute the tkinter
 window.mainloop()
+
+
